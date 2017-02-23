@@ -87,6 +87,8 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="SampleStringEvent.cs" />
     <Compile Include="TestModule3.cs" />
     <Compile Include="TestModule2.cs" />
     <Compile Include="TestModule.cs" />

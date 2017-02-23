@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KPU Lab 8 PRISM", "KPU Lab 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestModule", "TestModule\TestModule.csproj", "{99B8DDA8-F007-4763-A41E-A2E0D06A1BFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleA", "ModuleA\ModuleA.csproj", "{6DF3BBF5-4C70-4732-8269-878BD00F3E0E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism101.Modules.Core", "Prism101.Modules.Core\Prism101.Modules.Core.csproj", "{4A7CB8A1-5AA2-4701-B9E2-BAB93782B033}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{99B8DDA8-F007-4763-A41E-A2E0D06A1BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99B8DDA8-F007-4763-A41E-A2E0D06A1BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99B8DDA8-F007-4763-A41E-A2E0D06A1BFC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6DF3BBF5-4C70-4732-8269-878BD00F3E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6DF3BBF5-4C70-4732-8269-878BD00F3E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6DF3BBF5-4C70-4732-8269-878BD00F3E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6DF3BBF5-4C70-4732-8269-878BD00F3E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A7CB8A1-5AA2-4701-B9E2-BAB93782B033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A7CB8A1-5AA2-4701-B9E2-BAB93782B033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A7CB8A1-5AA2-4701-B9E2-BAB93782B033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A7CB8A1-5AA2-4701-B9E2-BAB93782B033}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

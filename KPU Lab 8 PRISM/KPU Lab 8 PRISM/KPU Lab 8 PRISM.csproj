@@ -131,6 +131,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Prism101.Modules.Core\Prism101.Modules.Core.csproj">
+      <Project>{4a7cb8a1-5aa2-4701-b9e2-bab93782b033}</Project>
+      <Name>Prism101.Modules.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TestModule\TestModule.csproj">
       <Project>{99b8dda8-f007-4763-a41e-a2e0d06a1bfc}</Project>
       <Name>TestModule</Name>

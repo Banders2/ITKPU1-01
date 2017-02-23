@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ModuleA.Properties
+namespace Prism101.Modules.Core.Properties
 {
 
 

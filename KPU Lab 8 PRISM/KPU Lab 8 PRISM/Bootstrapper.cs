@@ -39,7 +39,6 @@ namespace KPU_Lab_8_PRISM
 
             //var uri = new Uri(uriPath, UriKind.Relative);
             //var moduleCatalog2 = Microsoft.Practices.Prism.Modularity.ModuleCatalog.CreateFromXaml(uri);
-            //moduleCatalog.AddModule(moduleCatalog2.Modules.First()); 
         }
         //protected override IModuleCatalog CreateModuleCatalog()
         //{

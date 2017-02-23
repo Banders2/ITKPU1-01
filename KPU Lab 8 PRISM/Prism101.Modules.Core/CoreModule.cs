@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Practices.Prism.Modularity;
+using Microsoft.Practices.Prism.Regions;
 using Microsoft.Practices.Unity;
-using Prism.Modularity;
-using Prism.Regions;
 
-namespace ModuleA
+namespace Prism101.Modules.Core
 {
-    public class ModuleA2 : IModule
+    public class CoreModule : IModule
     {
         private readonly IUnityContainer container;
         private readonly IRegionManager regionManager;
 
-        public ModuleA2(IUnityContainer container, IRegionManager regionManager)
+        public CoreModule(IUnityContainer container, IRegionManager regionManager)
         {
             this.container = container;
             this.regionManager = regionManager;
@@ -22,8 +22,8 @@ namespace ModuleA
 
         public void Initialize()
         {
-            var view = new UserControl1();
-            regionManager.AddToRegion("MainRegion3", view);
+            var view = new WelcomeView();
+            regionManager.AddToRegion("MainContent", view);
         }
     }
 }

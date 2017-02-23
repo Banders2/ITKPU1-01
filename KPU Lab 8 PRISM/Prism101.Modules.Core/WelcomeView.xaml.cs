@@ -13,15 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ModuleA
+namespace Prism101.Modules.Core
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for WelcomeView.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class WelcomeView : UserControl
     {
-        public MainWindow()
+        public WelcomeView()
         {
+            InitializeComponent();
         }
     }
 }
