@@ -1,0 +1,17 @@
+﻿<Window x:Class="KPU_Lab_8_PRISM.Shell"
+        xmlns:prism="http://www.codeplex.com/prism"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Hello World" Height="300" Width="300">
+
+    
+    <Grid>
+        <ItemsControl Name="MainRegion" prism:RegionManager.RegionName="MainRegion" Margin="0,0,145,77">
+        </ItemsControl>
+        <ItemsControl Name="MainRegion2" prism:RegionManager.RegionName="MainRegion2" Margin="47,170,39,35">
+        </ItemsControl>
+        <!--<ItemsControl Name="MainRegion3" prism:RegionManager.RegionName="MainRegion2" Margin="47,370,39,35">
+        </ItemsControl>-->
+    </Grid>
+
+</Window>

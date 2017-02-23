@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26206.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KPU Lab 8 PRISM", "KPU Lab 8 PRISM\KPU Lab 8 PRISM.csproj", "{63F3DFE7-5102-4B53-8E1C-456BD272898B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestModule", "TestModule\TestModule.csproj", "{99B8DDA8-F007-4763-A41E-A2E0D06A1BFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleA", "ModuleA\ModuleA.csproj", "{6DF3BBF5-4C70-4732-8269-878BD00F3E0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63F3DFE7-5102-4B53-8E1C-456BD272898B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63F3DFE7-5102-4B53-8E1C-456BD272898B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63F3DFE7-5102-4B53-8E1C-456BD272898B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63F3DFE7-5102-4B53-8E1C-456BD272898B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99B8DDA8-F007-4763-A41E-A2E0D06A1BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99B8DDA8-F007-4763-A41E-A2E0D06A1BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99B8DDA8-F007-4763-A41E-A2E0D06A1BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99B8DDA8-F007-4763-A41E-A2E0D06A1BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DF3BBF5-4C70-4732-8269-878BD00F3E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF3BBF5-4C70-4732-8269-878BD00F3E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF3BBF5-4C70-4732-8269-878BD00F3E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF3BBF5-4C70-4732-8269-878BD00F3E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
