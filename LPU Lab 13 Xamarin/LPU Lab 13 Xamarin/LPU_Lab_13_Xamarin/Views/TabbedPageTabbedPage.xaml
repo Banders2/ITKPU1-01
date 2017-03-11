@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LPU_Lab_13_Xamarin.Views.TabbedPageTabbedPage"
+            xmlns:views="clr-namespace:LPU_Lab_13_Xamarin.Views;assembly=LPU_Lab_13_Xamarin.Droid"
+             xmlns:lpuLab13Xamarin="clr-namespace:LPU_Lab_13_Xamarin;assembly=LPU_Lab_13_Xamarin.Droid"
+             Title="TabbedPage">
+  <!--Pages can be added as references or inline-->
+    <TabbedPage.Children>
+        <lpuLab13Xamarin:MainPage />
+        <views:PernilleView />
+    </TabbedPage.Children>
+</TabbedPage>

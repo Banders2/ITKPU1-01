@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:lpuLab13Xamarin1="clr-namespace:LPU_Lab_13_Xamarin;assembly=LPU_Lab_13_Xamarin.Droid"
+             x:Class="LPU_Lab_13_Xamarin.Views.PernilleView">
+    <ContentPage.BindingContext>
+        <lpuLab13Xamarin1:PernilleViewModel/>
+    </ContentPage.BindingContext>
+    <RelativeLayout>
+        <Image x:Name="Image1" RelativeLayout.XConstraint="{ConstraintExpression Type=Constant, Constant=10}" RelativeLayout.YConstraint="{ConstraintExpression Type=Constant, Constant=30}" Source="{Binding ImageSource}">
+        </Image>
+        <Label Text="{Binding Intro}" InputTransparent="True" RelativeLayout.XConstraint="{ConstraintExpression Type=Constant, Constant=80}" RelativeLayout.YConstraint="{ConstraintExpression Type=Constant, Constant=250}"/>
+    </RelativeLayout>
+
+    <!--<Image Source="https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-9/10475515_10152537283119785_1616235661356090014_n.jpg?oh=d0cf0720273fe73f7bb99a3720f840b5&amp;oe=59383CB6"></Image>-->
+    
+</ContentPage>
